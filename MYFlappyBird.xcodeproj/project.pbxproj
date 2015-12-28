@@ -15,6 +15,7 @@
 		D86D1EA51C2BE10F004DF973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D86D1EA31C2BE10F004DF973 /* LaunchScreen.storyboard */; };
 		D86D1EB01C2BE10F004DF973 /* MYFlappyBirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D86D1EAF1C2BE10F004DF973 /* MYFlappyBirdTests.m */; };
 		D86D1EBB1C2BE10F004DF973 /* MYFlappyBirdUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D86D1EBA1C2BE10F004DF973 /* MYFlappyBirdUITests.m */; };
+		D88B04031C3155B60086A140 /* BackgroundSceneView.m in Sources */ = {isa = PBXBuildFile; fileRef = D88B04021C3155B60086A140 /* BackgroundSceneView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D86D1EB61C2BE10F004DF973 /* MYFlappyBirdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYFlappyBirdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86D1EBA1C2BE10F004DF973 /* MYFlappyBirdUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYFlappyBirdUITests.m; sourceTree = "<group>"; };
 		D86D1EBC1C2BE10F004DF973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88B04011C3155B60086A140 /* BackgroundSceneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundSceneView.h; sourceTree = "<group>"; };
+		D88B04021C3155B60086A140 /* BackgroundSceneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundSceneView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				D86D1E991C2BE10F004DF973 /* AppDelegate.m */,
 				D86D1E9B1C2BE10F004DF973 /* ViewController.h */,
 				D86D1E9C1C2BE10F004DF973 /* ViewController.m */,
+				D88B04011C3155B60086A140 /* BackgroundSceneView.h */,
+				D88B04021C3155B60086A140 /* BackgroundSceneView.m */,
 				D86D1E9E1C2BE10F004DF973 /* Main.storyboard */,
 				D86D1EA11C2BE10F004DF973 /* Assets.xcassets */,
 				D86D1EA31C2BE10F004DF973 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D86D1E9D1C2BE10F004DF973 /* ViewController.m in Sources */,
+				D88B04031C3155B60086A140 /* BackgroundSceneView.m in Sources */,
 				D86D1E9A1C2BE10F004DF973 /* AppDelegate.m in Sources */,
 				D86D1E971C2BE10F004DF973 /* main.m in Sources */,
 			);
@@ -498,6 +504,7 @@
 				D86D1EC11C2BE10F004DF973 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D86D1EC21C2BE10F004DF973 /* Build configuration list for PBXNativeTarget "MYFlappyBirdTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				D86D1EC41C2BE10F004DF973 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D86D1EC51C2BE10F004DF973 /* Build configuration list for PBXNativeTarget "MYFlappyBirdUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				D86D1EC71C2BE10F004DF973 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
